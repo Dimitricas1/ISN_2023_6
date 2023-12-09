@@ -540,6 +540,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 .absolute {
   position: absolute;
 }
@@ -552,32 +556,48 @@ video {
   right: 0px;
 }
 
-.ml-\[364px\] {
-  margin-left: 364px;
-}
-
-.mt-96 {
-  margin-top: 24rem;
-}
-
-.mt-\[188px\] {
-  margin-top: 188px;
-}
-
-.mt-\[124px\] {
-  margin-top: 124px;
+.right-1 {
+  right: 0.25rem;
 }
 
 .mt-6 {
   margin-top: 1.5rem;
 }
 
+.mt-\[124px\] {
+  margin-top: 124px;
+}
+
 .mt-\[45px\] {
   margin-top: 45px;
 }
 
+.mt-\[-113px\] {
+  margin-top: -113px;
+}
+
+.ml-\[65px\] {
+  margin-left: 65px;
+}
+
+.ml-\[66px\] {
+  margin-left: 66px;
+}
+
+.inline {
+  display: inline;
+}
+
 .h-11 {
   height: 2.75rem;
+}
+
+.h-\[222\] {
+  height: 222;
+}
+
+.h-\[55px\] {
+  height: 55px;
 }
 
 .h-full {
@@ -588,12 +608,8 @@ video {
   height: 100vh;
 }
 
-.h-\[222\] {
-  height: 222;
-}
-
-.h-\[55px\] {
-  height: 55px;
+.h-\[227px\] {
+  height: 227px;
 }
 
 .w-10 {
@@ -608,16 +624,43 @@ video {
   width: 1111px;
 }
 
-.w-screen {
-  width: 100vw;
+.w-\[581px\] {
+  width: 581px;
 }
 
 .w-\[616px\] {
   width: 616px;
 }
 
-.w-\[581px\] {
-  width: 581px;
+.w-screen {
+  width: 100vw;
+}
+
+.w-\[1276px\] {
+  width: 1276px;
+}
+
+.w-\[156px\] {
+  width: 156px;
+}
+
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/assets\/Logo\.png\'\)\] {
@@ -656,21 +699,16 @@ video {
   padding-top: 1.25rem;
 }
 
-.font-\[\'poppins\'\] {
-  font-family: 'poppins';
-}
-
-.font-\[\'Poppins\'\] {
-  font-family: 'Poppins';
+.pt-\[60px\] {
+  padding-top: 60px;
 }
 
 .font-\[\'FontAwesome\'\] {
   font-family: 'FontAwesome';
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.font-\[\'Poppins\'\] {
+  font-family: 'Poppins';
 }
 
 .text-6xl {
@@ -683,12 +721,17 @@ video {
   line-height: 1.5rem;
 }
 
-.font-normal {
-  font-weight: 400;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .leading-\[74px\] {
@@ -715,6 +758,12 @@ video {
 
 .opacity-70 {
   opacity: 0.7;
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .hover\:opacity-100:hover {
