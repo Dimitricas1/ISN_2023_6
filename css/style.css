@@ -901,6 +901,10 @@ video {
   width: 222px;
 }
 
+.w-\[735px\] {
+  width: 735px;
+}
+
 .select-none {
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -940,6 +944,10 @@ video {
   background-image: url('/assets/slider1.png');
 }
 
+.bg-\[url\(\'\/assets\/feature1\.png\'\)\] {
+  background-image: url('/assets/feature1.png');
+}
+
 .bg-auto {
   background-size: auto;
 }
@@ -954,6 +962,11 @@ video {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .pl-40 {
