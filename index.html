@@ -3,21 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/notie/dist/notie.min.css">
   <link href="/css/style.css" rel="stylesheet">
+  <style>
+    .notie-container {z-index: 50;}
+  </style>
   <title>Webovio</title>
 </head>
 <body class="overflow-x-hidden select-none">
   <div class="w-screen h-screen bg-cover bg-center bg-[url('/assets/slider1.png')] pl-40 pt-5">
     <div class="h-11 w-[1111px] relative">
       <div class="bg-[url('/assets/Logo.png')] bg-no-repeat bg-auto h-full w-64 absolute"></div>
-      <div class="bg-[url('/assets/mmenu.png')] opacity-70 hover:opacity-100 bg-no-repeat bg-auto h-full w-10 absolute right-0"></div>
+      <button onclick="hello()"><div class="bg-[url('/assets/mmenu.png')] opacity-70 hover:opacity-100 bg-no-repeat bg-auto h-full w-10 absolute right-0"></div></button>
     </div>
     <div class="mt-[124px] text-white text-sm font-normal font-['Poppins'] select-none">A place where</div>
     <div class="mt-6 text-white text-6xl font-bold font-['Poppins'] leading-[74px] w-[616px] h-[222] select-none">A creative agency for redemptive brands</div>
     <div class="mt-6 text-white text-base font-normal font-['Poppins'] leading-relaxed w-[581px] h-[55px] select-none">Anteelo is a leading strategic design firm that builds powerful digital solutions for startups and enterprises.</div>
     <div class="mt-[45px]">
       <span class="text-yellow-400 text-base font-normal font-['FontAwesome'] select-none"></span>
-      <span class="text-yellow-400 text-base font-bold font-['Poppins'] underline select-none">Get in touch</span>
+      <span class="text-yellow-400 text-base font-bold font-['Poppins'] underline"><button onclick="hello()">Get in touch</button></span>
     </div>
   </div>
   <div class="w-screen h-[227px] left-40 bg-white absolute mt-[-113px] rounded-sm shadow-2xl pt-[60px]">
@@ -32,7 +36,7 @@
       <div class="text-stone-600 text-opacity-90 text-sm font-normal font-['Poppins'] select-none">What we do for you</div>
       <div class="w-[475px] h-[138px] mt-[29px] text-stone-600 text-4xl font-bold font-['Poppins'] leading-[46px] select-none">Strategy. Design <br>Content. Technology Development </div>
       <div class="w-[475px] h-[78px] mt-[35px] text-slate-800 text-opacity-60 text-base font-normal font-['Poppins'] leading-relaxed select-none">There’s no secret sauce, no wizard behind the curtain. What makes Aerolab tick is an interdisciplinary team with a framework that fosters candid collaboration.</div>
-      <div class="w-[182px] h-[24px] mt-[42px] text-neutral-300 text-base font-normal hover:text-yellow-400"><span class="font-['FontAwesome'] select-none"> </span><span class="font-['Poppins'] underline select-none">More know About us</span></div>
+      <button onclick="hello()"><div class="w-[182px] h-[24px] mt-[42px] text-neutral-300 text-base font-normal hover:text-yellow-400"><span class="font-['FontAwesome'] select-none"> </span><span class="font-['Poppins'] underline select-none">More know About us</span></div></button>
 
     </div>
     <div class="w-[474px] h-[644px] shadow-2xl absolute right-0 -z-10">
@@ -66,9 +70,9 @@
         <div class="mt-6 text-slate-800 text-opacity-60 text-base font-normal font-['Poppins'] leading-relaxed">This article is floated online with an aim to help you find the best dvd printing solution.
           <br><br>
           Dvd printing is an important feature used by large and small DVD production houses to print information on DVDs.</div>
-          <div class="absolute bottom-0 hover:text-yellow-400 text-neutral-300 text-base font-normal">
+          <button onclick="hello()"><div class="absolute bottom-0 hover:text-yellow-400 text-neutral-300 text-base font-normal">
             <span class="font-['FontAwesome']"> </span><span class="font-['Poppins'] underline">See Case Study</span>
-          </div>
+          </div></button>
       </div>
     </div>
     <div class="w-[1268px] h-[585px] mt-[100px] relative">
@@ -78,9 +82,9 @@
         <div class="mt-6 text-slate-800 text-opacity-60 text-base font-normal font-['Poppins'] leading-relaxed">While it was just a TV show, that little speech at the beginning of the original Star Trek show really did do a good job of capturing our feelings about space.
           <br><br>
           It is those feelings that drive our love of astronomy and our desire to learn more and more about it.</div>
-          <div class="absolute bottom-0 hover:text-yellow-400 text-neutral-300 text-base font-normal">
+          <button onclick="hello()"><div class="absolute bottom-0 hover:text-yellow-400 text-neutral-300 text-base font-normal">
             <span class="font-['FontAwesome']"> </span><span class="font-['Poppins'] underline">See Case Study</span>
-          </div>
+          </div></button>
       </div>
       <div class="w-[947px] absolute left-[695px]">
         <img src="/assets/feature2.png" class="w-[999px] h-[562px] absolute select-none pointer-events-none object-cover -z-10">
@@ -111,9 +115,9 @@
         <div class="mt-6 text-slate-800 text-opacity-60 text-base font-normal font-['Poppins'] leading-relaxed">You should be able to find several indispensable facts about motivation in the following paragraphs. 
           <br><br>
           If there’s at least one fact you didn’t know before, imagine the difference it might make.</div>
-          <div class="absolute bottom-0 hover:text-yellow-400 text-neutral-300 text-base font-normal">
+          <button onclick="hello()"><div class="absolute bottom-0 hover:text-yellow-400 text-neutral-300 text-base font-normal">
             <span class="font-['FontAwesome']"> </span><span class="font-['Poppins'] underline">See Case Study</span>
-          </div>
+          </div></button>
       </div>
     </div>
   </div>
@@ -128,18 +132,18 @@
     <span class="w-[194px] mt-5 text-slate-800 text-opacity-60 text-sm font-normal font-['Poppins'] leading-relaxed">A workshop aimed at shaping your business idea, answering questions regarding project planning</span>
     <span class="w-[194px] mt-5 text-slate-800 text-opacity-60 text-sm font-normal font-['Poppins'] leading-relaxed">An evaluation which will help you radically improve your product.</span>
     <span class="w-[194px] mt-5 text-slate-800 text-opacity-60 text-sm font-normal font-['Poppins'] leading-relaxed">Do you know what one of the key secrets of success is what makes people successful in business</span>
-    <span class="mt-[30px] text-base nont-normal text-neutral-300 hover:text-yellow-400"><span class="font-['FontAwesome']"> </span><span class="font-['Poppins'] underline">Read More</span></span>
-    <span class="mt-[30px] text-base nont-normal text-neutral-300 hover:text-yellow-400"><span class="font-['FontAwesome']"> </span><span class="font-['Poppins'] underline">Read More</span></span>
-    <span class="mt-[30px] text-base nont-normal text-neutral-300 hover:text-yellow-400"><span class="font-['FontAwesome']"> </span><span class="font-['Poppins'] underline">Read More</span></span>
-    <span class="mt-[30px] text-base nont-normal text-neutral-300 hover:text-yellow-400"><span class="font-['FontAwesome']"> </span><span class="font-['Poppins'] underline">Read More</span></span>
+    <span class="mt-[30px] text-base nont-normal text-neutral-300 hover:text-yellow-400"><button onclick="hello()"><span class="font-['FontAwesome']"> </span><span class="font-['Poppins'] underline">Read More</span></button></span>
+    <span class="mt-[30px] text-base nont-normal text-neutral-300 hover:text-yellow-400"><button onclick="hello()"><span class="font-['FontAwesome']"> </span><span class="font-['Poppins'] underline">Read More</span></button></span>
+    <span class="mt-[30px] text-base nont-normal text-neutral-300 hover:text-yellow-400"><button onclick="hello()"><span class="font-['FontAwesome']"> </span><span class="font-['Poppins'] underline">Read More</span></button></span>
+    <span class="mt-[30px] text-base nont-normal text-neutral-300 hover:text-yellow-400"><button onclick="hello()"><span class="font-['FontAwesome']"> </span><span class="font-['Poppins'] underline">Read More</span></button></span>
   </div>
   <div class="w-[1275px] h-[362px] absolute bg-[#FAFAFA] mt-[160px] shadow-2xl z-40">
     <div class="w-[822px] h-[148px] mt-[70px] ml-[164px] text-stone-600 text-6xl font-bold font-['Poppins'] leading-[74px]">
       Let’s make something amazing together.
     </div>
-    <div class="mt-[50px] ml-[164px] w-[162px] h-[24px] text-neutral-300 font-normal text-base hover:text-yellow-400">
+    <button onclick="hello()"><div class="mt-[50px] ml-[164px] w-[162px] h-[24px] text-neutral-300 font-normal text-base hover:text-yellow-400">
       <span class="font-['FontAwesome']"> </span><span class="font-['Poppins'] underline">LET'S GET STARTED</span>
-    </div>
+    </div></button>
   </div>
   <div class="h-[920px] bg-[#4F553D] mt-[322px] relative">
     <div class="w-screen h-[692px] absolute bottom-0 bg-[#50583B] bg-center bg-cover [mask-image:url('/assets/footer-bg.png')] [mask-type:alpha]"></div>
@@ -158,19 +162,19 @@
           <span class="text-white text-base font-semibold font-['Poppins'] uppercase leading-[38px]">SERVICES</span>
           <span class="text-white text-base font-semibold font-['Poppins'] uppercase leading-[38px]">HELP AND ADVICE</span>
           <span class="text-white text-base font-semibold font-['Poppins'] uppercase leading-[38px]">COMPANY</span>
-          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10">Stategy Design</span>
-          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10">How it works</span>
-          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10">About</span>
-          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10">Product Design</span>
-          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10">Contact Support</span>
-          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10">Blog</span>
-          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10">Content Strategy</span>
-          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10">Privacy Policy</span>
-          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10">Contact</span>
-          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10">Brand Strategy</span>
-          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10">FAQ</span>
-          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10">Jobs</span>
-          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10">Development</span>
+          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10"><button onclick="hello()">Strategy Design</button></span>
+          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10"><button onclick="hello()">How it works</button></span>
+          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10"><button onclick="hello()">About</button></span>
+          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10"><button onclick="hello()">Product Design</button></span>
+          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10"><button onclick="hello()">Contact Support</button></span>
+          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10"><button onclick="hello()">Blog</button></span>
+          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10"><button onclick="hello()">Content Strategy</button></span>
+          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10"><button onclick="hello()">Privacy Policy</button></span>
+          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10"><button onclick="hello()">Contact</button></span>
+          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10"><button onclick="hello()">Brand Strategy</button></span>
+          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10"><button onclick="hello()">FAQ</button></span>
+          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10"><button onclick="hello()">Jobs</button></span>
+          <span class="text-stone-400 hover:text-yellow-400 text-base font-normal font-['Poppins'] leading-10"><button onclick="hello()">Development</button></span>
           <span></span>
           <span></span>
         </div>
@@ -180,10 +184,10 @@
           <span class="text-stone-400 text-base font-normal font-['Poppins'] leading-relaxed">Feel free to get in touch with us via email</span>
           <span class="text-white text-2xl font-bold font-['Poppins'] leading-[38px]">info.webovio@gmail.com</span>
           <span class="font-['FontAwesome'] text-lg font-normal text-[#5E6648] select-none">
-            <span class="rounded-full bg-[#444933] w-[33px] h-[33px] inline-block text-center hover:text-white hover:bg-yellow-400 select-none"></span>
-            <span class="rounded-full bg-[#444933] w-[33px] h-[33px] inline-block text-center hover:text-white hover:bg-yellow-400 select-none"></span>
-            <span class="rounded-full bg-[#444933] w-[33px] h-[33px] inline-block text-center hover:text-white hover:bg-yellow-400 select-none"></span>
-            <span class="rounded-full bg-[#444933] w-[33px] h-[33px] inline-block text-center hover:text-white hover:bg-yellow-400 select-none"></span>
+            <button onclick="hello()"><span class="rounded-full bg-[#444933] w-[33px] h-[33px] inline-block text-center hover:text-white hover:bg-yellow-400 select-none"></span></button>
+            <button onclick="hello()"><span class="rounded-full bg-[#444933] w-[33px] h-[33px] inline-block text-center hover:text-white hover:bg-yellow-400 select-none"></span></button>
+            <button onclick="hello()"><span class="rounded-full bg-[#444933] w-[33px] h-[33px] inline-block text-center hover:text-white hover:bg-yellow-400 select-none"></span></button>
+            <button onclick="hello()"><span class="rounded-full bg-[#444933] w-[33px] h-[33px] inline-block text-center hover:text-white hover:bg-yellow-400 select-none"></span></button>
           </span>
         </div>
         <div class="w-[1110px] h-[1px] mb-6 relative mt-[350px] mx-auto bg-[#5C6544]"></div>
@@ -194,5 +198,7 @@
       </div>
     </div>
   </div>
+  <script src="https://unpkg.com/notie"></script>
+  <script type="text/javascript" src="/assets/script.js"></script>
 </body>
 </html>
