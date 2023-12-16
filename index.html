@@ -6,9 +6,49 @@
     <link href="/dist/main.css" rel="stylesheet">
     <title>Work3</title>
 </head>
-<body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+<body class="max-w-screen-xl mt-12 mb-36 mx-auto">
+    <!-- header -->
+    <header class="flex justify-between text-black font-norma font-['SF Pro Display'] leading-normal items-start mb-16">
+        <div class="w-3/12 inline-flex">
+            <img src="/src/Logo.png">
+        </div>
+        <div class="w-9/12 inline-flex justify-between items-start">
+            <li class="inline-flex items-center space-x-14 list-none">
+                <ul class="hover:text-green-500"><a href="#">Search</a></ul>
+                <ul class="hover:text-green-500"><a href="#">Startups</a></ul>
+                <ul class="hover:text-green-500"><a href="#">Videos</a></ul>
+                <ul class="hover:text-green-500"><a href="#">Newsletter</a></ul>
+            </li>
+            <li class="inline-flex flex-col items-start list-none">
+                <ul class="hover:text-green-500"><a href="#">Extra Crunch</a></ul>
+                <ul class="hover:text-green-500"><a href="#">Events</a></ul>
+                <ul class="hover:text-green-500"><a href="#">More</a></ul>
+            </li>
+            <div class="hover:text-green-500 inline-flex"><a href="#">Login</a></div>
+        </div>
+    </header>
+    <!-- news header -->
+    <section class="w-9/12 float-right">
+        <div class="ml-1 text-green-500 text-2xl font-normal font-['SF Pro Display'] mb-8 hover:underline"><a href="#">Back</a></div>
+        <div class="text-black font-normal text-7xl font-['SF Pro Display'] w-3/4">Black tech leaders issue call to action to fight racial injustice</div>
+    </section>
+    <!-- video description -->
+    <section class="float-left w-full mt-12 flex">
+        <div class="w-3/12 text-black text-xl font-normal font-['SF Pro Display'] leading-7"><div>Taylor Hatmaker</div>
+            <div class="text-green-500 hover:underline"><a href="#">@tayhatmaker</a></div>
+            <div>7:21 pm EEST</div></div>
+        <div class="w-9/12 inline-flex justify-between">
+            <div>
+                <div class="w-16 h-16 bg-gradient-to-b from-green-500 to-green-300 rounded-full inline-flex justify-center my-auto relative hover:to-green-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 m-auto text-white">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                    </svg>    
+                </div>
+                <span class="text-black font-normal text-lg font-['SF Pro Display'] leading-normal my-auto ml-5">Play Video</span>
+            </div>    
+            <div class="justify-end w-3/12 mr-28">Image Credits: Photo by Mark Makela/Getty Images / Getty Images</div>
+        </div>
+    </section>
+
 </body>
 </html>
