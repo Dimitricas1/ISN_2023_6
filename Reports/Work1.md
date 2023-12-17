@@ -1,8 +1,8 @@
 <h1 align="center">Отчёт по работе №1</h1>
 <h2 align="center">Вариант №6</h2>
 
-<p align="justify">
-<b>&nbsp;&nbsp;Цель:</b> исследование технологий создания Progressive Web Application PWA приложения на стеке технологий NodeJS.
+<p align="justify">&nbsp;&nbsp;
+<b>Цель:</b> исследование технологий создания Progressive Web Application PWA приложения на стеке технологий NodeJS.
 </p>
 <p align="justify">&nbsp;&nbsp;
 В ходе выполнения работы использовался следующий набор инструментов:
