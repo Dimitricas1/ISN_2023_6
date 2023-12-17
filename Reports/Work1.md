@@ -30,3 +30,17 @@
 <p align="justify">&nbsp;&nbsp;&nbsp;
 Результаты выполнения данных действий представлены на следуюших рисунках:
 </p>
+
+![Рисунок 1. Простейшее приложение Vue](/Reports/images/application.JPG)
+<p align="center">Рисунок 1. Простейшее приложение Vue</p>
+
+![Рисунок 2. Зарегистрированный Service Worker](/Reports/images/sworker.JPG)
+<p align="center">Рисунок 2. Зарегистрированный Service Worker</p>
+
+![Рисунок 3. Зарегистрированный манифест](/Reports/images/manifest.JPG)
+<p align="center">Рисунок 3. Зарегистрированный манифест</p>
+
+---
+<p align="justify">&nbsp;&nbsp;&nbsp;
+<b>Вывод:</b> в ходе выполнения работы была исследована технология создания Progressive Web Application PWA приложения на стеке технологий NodeJS.
+</p>
