@@ -703,6 +703,10 @@ video {
   width: 100%;
 }
 
+.max-w-screen-lg {
+  max-width: 1440px;
+}
+
 .select-none {
   -webkit-user-select: none;
      -moz-user-select: none;
