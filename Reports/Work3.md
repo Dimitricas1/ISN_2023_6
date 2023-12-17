@@ -63,7 +63,7 @@
 ![Рисунок 4. Отображение текста на Pixel](/Reports/images/pixel-text.JPG)
 <p align="center">Рисунок 4. Отображение текста на Pixel</p>
 
-![Рисунок 5. Отображение прелодера](/Reports/images/preloader.JPG)
+![Рисунок 5. Отображение прелодера](/Reports/images/preloader.jpg)
 <p align="center">Рисунок 5. Отображение прелодера</p>
 
 ![Рисунок 6. Отображение модального уведомления](/Reports/images/popup-modal.JPG)
