@@ -8,3 +8,5 @@
 [Работа №1](/Reports/Work1.md)
 
 [Работа №2](/Reports/Work2.md)
+
+[Работа №3](/Reports/Work3.md)
